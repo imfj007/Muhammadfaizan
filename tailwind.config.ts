@@ -1,8 +1,9 @@
-﻿const { default: svgToDataUri } = require("mini-svg-data-uri");
+﻿
 import type { Config } from "tailwindcss";
 import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
 import "tailwindcss/colors";
+const svgToDataUri = (svg: string) => `data:image/svg+xml,${encodeURIComponent(svg)}`;
 
 const config = {
   darkMode: ["class"],
