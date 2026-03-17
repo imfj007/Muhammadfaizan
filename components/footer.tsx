@@ -65,7 +65,7 @@ export const Footer = () => {
         <div className="flex items-center gap-6 md:gap-3">
           {socialMedia.map((profile) => (
             <Link
-              key={profile.name}
+              key={profile.id}
               href={profile.link}
               target="_blank"
               rel="noreferrer noopener"
