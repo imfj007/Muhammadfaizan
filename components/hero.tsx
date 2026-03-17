@@ -37,7 +37,7 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Hi, I&apos;m {links.ownerName}, a Next.js developer based in India.
+            Hi, I&apos;m {links.ownerName}, a Web Developer and SEO Expert based in Pakistan.
           </p>
 
           <Link href="#about" className="md:mt-10">
