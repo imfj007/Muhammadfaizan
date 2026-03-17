@@ -70,7 +70,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
               className="saturate-180 flex size-10 items-center justify-center rounded-lg border border-black-300 bg-black-200 bg-opacity-75 backdrop-blur-lg backdrop-filter"
-              title={profile.name}
+              title="Visit Profile"
             >
               <Image
                 src={profile.img}
